@@ -1,0 +1,381 @@
+body{height:100%;
+   width:100%;
+   background-image:url(bg.png);/*your background image*/  
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/   
+background-attachment: fixed;   
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.bg.png',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='bg.png',sizingMethod='scale')";
+}
+	
+div.logo {
+    position: absolute;
+    top: 105;
+    left: 110;
+    border: 1px solid black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #49FBFB;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+	font-size: 28;
+	font-family:play;
+    text-align: center;
+    padding: 14px 65px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #0065A9;
+}
+
+.active {
+    background-color: #41BFFF;
+}
+.signin {
+    position: absolute;
+    top: 155;
+    left: 1045;
+    border: 1px solid red;
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background-color:#2dabf9;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:8px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:16px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.signin:hover {
+	background-color:#0688fa;
+}
+.signin:active {
+	position:absolute;
+}
+.signup {
+    position: absolute;
+    top: 155;
+    left:890;
+    border: 1px solid red;
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background-color:#2dabf9;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:8px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:16px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.signup:hover {
+	background-color:#0688fa;
+}
+.signup:active {
+	position:absolute;
+}
+
+
+div.background {
+  background: url(bg.jpg) repeat;
+  border: 0.5px transparent black;
+}
+
+div.transbox {
+  margin: 215px 100px;
+  background-color: #151515;
+  border: 1px transparent black;
+  opacity: 0.90;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-size: 24;
+  weight: bold;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+div.edit{
+	margin: 5%;
+  font-size: 18;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+div.welcome{
+	positon: fixed;
+	top:120;
+	left:70;
+	border: 1px solid black
+    weight: bold;
+    color: #f4f6f7 ;
+	font-size: 30;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.logout {
+    position: absolute;
+    top: 155;
+    left: 1040;
+    border: 1px solid red;
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background-color:#2dabf9;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:8px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:16px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.logout:hover {
+	background-color:#0688fa;
+}
+.logout:active {
+	position:absolute;
+}
+.manage {
+    position: absolute;
+    top: 155;
+    left: 840;
+    border: 1px solid red;
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background-color:#2dabf9;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:8px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:16px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+
+.manage:hover {
+	background-color:#0688fa;
+}
+.manage:active {
+	position:absolute;
+}
+
+
+	.approve
+{
+	border: 1px solid red;
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background-color:#2dabf9;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:8px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:16px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+	
+.approve:hover {
+	background-color:#0688fa;
+}
+.approve:active {
+	position:absolute;
+}
+
+	.delete
+{
+	border: 1px solid red;
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background-color:#2dabf9;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:8px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:16px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+	
+.delete:hover {
+	background-color:#0688fa;
+}
+.delete:active {
+	position:absolute;
+}
+
+.addstory {
+    position: absolute;
+    top: 155;
+    left: 870;
+    border: 1px solid red;
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background-color:#2dabf9;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:8px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:16px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.addstory:hover {
+	background-color:#0688fa;
+}
+.addstory:active {
+	position:absolute;
+}
+
+
+
+
+.proflogout {
+    position: absolute;
+    top: 155;
+    left: 1110;
+    border: 1px solid red;
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background-color:#2dabf9;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:8px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:16px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.proflogout:hover {
+	background-color:#0688fa;
+}
+.proflogout:active {
+	position:absolute;
+}
+div.transbox label{
+  font-size: 28;
+  weight: bold;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+	
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}
+
+.loginbut {
+    position: absolute;
+    border: 1px solid red;
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background-color:#2dabf9;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:8px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:16px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.loginbut:hover {
+	background-color:#0688fa;
+}
+.loginbut:active {
+	position:absolute;
+}
+
+.signupbut {
+    position: absolute;
+    border: 1px solid red;
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background-color:#2dabf9;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:8px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:16px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.signupbut:hover {
+	background-color:#0688fa;
+}
+.signupbut:active {
+	position:absolute;
+}
+
